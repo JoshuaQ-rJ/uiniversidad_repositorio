@@ -6,7 +6,7 @@
 // Inicializar EmailJS con tu Public Key (Asegúrate de cambiar esto con tus llaves)
 (function() {
     emailjs.init({
-      publicKey: "TU_PUBLIC_KEY_AQUI", 
+      publicKey: "STHfQ-GkPJpsPyH9L", 
     });
 })();
 
@@ -142,7 +142,7 @@ document.getElementById('form-registro').addEventListener('submit', function(e) 
   };
 
   // REEMPLAZA CON TU SERVICE_ID Y TEMPLATE_ID DE EMAILJS
-  emailjs.send('YOUR_SERVICE_ID', 'YOUR_REGISTER_TEMPLATE_ID', templateParams)
+  emailjs.send('service_sij29bm', 'template_29dyeer', templateParams)
     .then(() => {
       showToast("Mensaje de bienvenida enviado al correo.");
       currentUser = { email: email, role: "user", name: name };
