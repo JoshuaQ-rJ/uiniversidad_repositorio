@@ -579,7 +579,7 @@ document.getElementById('form-contact').addEventListener('submit', function(e) {
   };
 
   // REEMPLAZA CON TU SERVICE_ID Y TU TEMPLATE_ID DE CONTACTO DE EMAILJS
-  emailjs.send('YOUR_SERVICE_ID', 'YOUR_CONTACT_TEMPLATE_ID', templateParams)
+  emailjs.send('service_sij29bm', 'template_29dyeer', templateParams)
     .then(() => {
        showToast("Mensaje enviado de forma segura.");
        document.getElementById('form-contact').reset();
